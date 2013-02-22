@@ -1,0 +1,13 @@
+CC=gcc
+WINCC=mingw32-gcc
+
+all: endian endian.exe
+
+endian: endian.c
+	${CC} -o endian endian.c
+endian.exe: endian.c
+	${WINCC} -o endian.exe endian.c
+
+test: endian endian.exe
+	./endian
+	wine ./endian.exe

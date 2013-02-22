@@ -1,0 +1,34 @@
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 1  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 2  illegal character '#'
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 2  Syntax error; missing semicolon before  `0717670'
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 2  unrecognized declaration
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 3  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 3  Syntax error; missing semicolon before  `Programming'
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 3  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 3  Syntax error; missing semicolon before  `Final'
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 3  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 3  Syntax error; missing semicolon before  `-'
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 3  unrecognized declaration
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 3  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 3  Syntax error; missing semicolon before  `Body'
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 3  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 3  Syntax error; missing semicolon before  `Problem'
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 3  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  Syntax error; missing semicolon before  `*'
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 4  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  syntax error; found `Code' expecting ')'
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  Syntax error; missing semicolon before  `Code'
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 4  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  Syntax error; missing semicolon before  `:'
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  skipping `:'
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 4  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  Syntax error; missing semicolon before  `-'
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  unrecognized declaration
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 4  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  Syntax error; missing semicolon before  `problem1'
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 4  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  Syntax error; missing semicolon before  `.'
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  skipping `.'
+Warning d:\documents\computing\programming\c\uni\nathan\steve.c: 4  no type specified. Defaulting to int
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  Syntax error; missing semicolon before  `-'
+Error d:\documents\computing\programming\c\uni\nathan\steve.c: 4  too many errors
