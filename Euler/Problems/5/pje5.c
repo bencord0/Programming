@@ -7,16 +7,12 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <time.h>
 #include <unistd.h>
 
-int main()
+int pje5()
 {
 		
-	int p = (int) getpid();
-	clock_t cstart = clock();
-	clock_t cend = 0;
-	
+
 	int max, i, j, ans, div;
 	
 	printf("Calculates smallest number evenly divisible by 1 to max. Enter max: ");
@@ -45,9 +41,6 @@ int main()
 	}
 	
 	printf("Answer: %d\n",ans);
-	
-	cend = clock();
-	printf ("%.3f cpu sec\n", ((double)cend - (double)cstart)* 1.0e-6);
 	
 	return 0;
 }

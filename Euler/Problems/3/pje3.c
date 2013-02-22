@@ -17,14 +17,15 @@ double checkprime (double num)
 	}
 }
 
-int main(void)
+double pje3(int go)
 {
-	int p = (int) getpid();
-	clock_t cstart = clock();
-	clock_t cend = 0;	
+
+    double num, start, i, fractpart, intpart, div, ans;
 	
-	double num, start, i, fractpart, intpart, div, ans, primepart, pintpart, big;
-	
+    if(go == 0){
+        return 0;
+    }
+    else{
 	start = 600851475143;
 	//start = 13195;
 	num = sqrt (start); //trial division of primes - see wikipedia
@@ -47,8 +48,6 @@ int main(void)
 	
 	printf("Answer: %f\n", ans);
 		
-	cend = clock();
-	printf ("%.3f cpu sec\n", ((double)cend - (double)cstart)* 1.0e-6);
-	
-	return 0;
+    return ans;
+    }
 }

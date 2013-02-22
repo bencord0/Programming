@@ -7,7 +7,6 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <time.h>
 #include <unistd.h>
 
 int getDigitFromDec(double dec, int dig)
@@ -43,11 +42,8 @@ double checkpalindrome(double num)
 	}
 }
 
-int main()
+int pje4()
 {
-	int p = (int) getpid();
-	clock_t cstart = clock();
-	clock_t cend = 0;
 	
 	int i,j;
 	double num, num2, ans;
@@ -67,9 +63,6 @@ int main()
 	}
 	
 	//printf("Answer: %f\n", ans);
-	
-	cend = clock();
-	printf ("%.3f cpu sec\n", ((double)cend - (double)cstart)* 1.0e-6);
 	
 	return 0;
 }

@@ -8,15 +8,11 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <time.h>
 #include <unistd.h>
 
-int main()
+int pje6()
 {
-	int p = (int) getpid();
-	clock_t cstart = clock();
-	clock_t cend = 0;
-	
+
 	double sqr, sum, sqr_sum, dif;
 	int i,max;
 	
@@ -37,9 +33,6 @@ int main()
 	dif = sqr_sum - sqr;
 	
 	printf("Answer: %f\n",dif);
-	
-	cend = clock();
-	printf ("%.3f cpu sec\n", ((double)cend - (double)cstart)* 1.0e-6);
-	
+
 	return 0;
 }

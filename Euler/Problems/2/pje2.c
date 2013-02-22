@@ -3,7 +3,7 @@
 
 //Solves Project Euler Problem 2
 
-int main()
+int pje2()
 {
 	double numa, numb, div, fib;
 	double max;

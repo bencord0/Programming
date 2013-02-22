@@ -1,32 +1,19 @@
 //****************************************
-// Project Euler Problem 7
+// Project Euler Problem 8
 // Author - Tom Wilkinson
-// Date - 17/1/13
+// Date - 22/2/13
 //****************************************
 
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-
 #include <unistd.h>
 
-/*double checkprime (double num)
+int pje8()
 {
-	double counter = 2;
-	double fpart, ipart, d;
-	while (1)
-	{
-		d = num/counter;
-		fpart = modf (d, &ipart);
-		
-		if (!(fpart != 0)) return 0;
-		if ((num/counter) < counter) return counter;
-		counter++;
-	}
-}*/
-
-int pje7(void)
-{
+	int p = (int) getpid();
+	clock_t cstart = clock();
+	clock_t cend = 0;	
 	
 	double num, start, i;
 	int fin;
@@ -49,5 +36,8 @@ int pje7(void)
 	
 	printf("Answer: %f\n", i-1);
 		
+	cend = clock();
+	printf ("%.3f cpu sec\n", ((double)cend - (double)cstart)* 1.0e-6);
+	
 	return 0;
 }

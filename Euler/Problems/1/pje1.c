@@ -3,10 +3,10 @@
 
 // finds sum of all multiples of 3 and/or 5 below 1000
 
-void main(void)
+int pje1()
 {
 	int num;
-	int end;
+//	int end;
 	double sum;
 	int max;
 	int i;
@@ -39,4 +39,6 @@ void main(void)
 	}
 	}
 	printf("sum = %f \n", sum);
+
+    return 0;
 }
