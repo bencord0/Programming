@@ -8,10 +8,10 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int pje9()
 {
 	int n, a, b, c = 0;
-	double ans, sum , ab, c2 =0;
+    double ans, sum(0) , ab, c2 =0;
 	
 	n=5;
 	

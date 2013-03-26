@@ -11,11 +11,12 @@
 
 int pje8()
 {
-	int p = (int) getpid();
-	clock_t cstart = clock();
-	clock_t cend = 0;	
+    //int p = (int) getpid();
+    //clock_t cstart = clock();
+    //clock_t cend = 0;
 	
-	double num, start, i;
+    double start = 0;
+    double i = 0;
 	int fin;
 	
 	printf("Finds the nth prime. Enter n:\n");
@@ -36,8 +37,8 @@ int pje8()
 	
 	printf("Answer: %f\n", i-1);
 		
-	cend = clock();
-	printf ("%.3f cpu sec\n", ((double)cend - (double)cstart)* 1.0e-6);
+    //cend = clock();
+    //printf ("%.3f cpu sec\n", ((double)cend - (double)cstart)* 1.0e-6);
 	
 	return 0;
 }

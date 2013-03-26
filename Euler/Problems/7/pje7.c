@@ -28,7 +28,8 @@
 int pje7(void)
 {
 	
-	double num, start, i;
+    double start = 0;
+    double i = 0;
 	int fin;
 	
 	printf("Finds the nth prime. Enter n:\n");

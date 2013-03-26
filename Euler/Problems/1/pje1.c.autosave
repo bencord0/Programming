@@ -3,8 +3,9 @@
 
 // finds sum of all multiples of 3 and/or 5 below 1000
 
-int pje1()
+double pje1(int go)
 {
+
 	int num;
 //	int end;
     double sum = 0;
@@ -13,7 +14,8 @@ int pje1()
 	int div;
 	
 	max = 1000;
-	
+    if(go==0){return 0;}
+    else{
 	for(i=0; i < max; i++)
 	{
 	num = i;
@@ -40,5 +42,6 @@ int pje1()
 	}
 	printf("sum = %f \n", sum);
 
-    return 0;
+    return sum;
+    }
 }

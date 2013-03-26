@@ -20,7 +20,9 @@ double checkprime (double num)
 double pje3(int go)
 {
 
-    double num, start, i, fractpart, intpart, div, ans;
+    double num, start, fractpart, intpart, div;
+    double ans=0;
+    double i =0;
 	
     if(go == 0){
         return 0;

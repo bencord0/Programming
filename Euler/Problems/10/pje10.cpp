@@ -9,7 +9,7 @@
 #include <cmath>
 using namespace std;
 
-double checkprime (double num)
+/*double checkprime (double num)
 {
 	double counter = 2;
 	double fpart, ipart, d;
@@ -22,12 +22,12 @@ double checkprime (double num)
 		if ((num/counter) < counter) return counter;
 		counter++;
 	}
-}
+}*/
 
-int main()
+int pje10()
 {
 	double max = 2e6;
-	double sum, i, fractpart, div, intpart = 0;
+    double sum, i = 0;
 	
 	i=3;
 	sum=2;

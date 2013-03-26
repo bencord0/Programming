@@ -13,7 +13,10 @@
 int pje6()
 {
 
-	double sqr, sum, sqr_sum, dif;
+    double sqr =0;
+    double sum = 0;
+    double sqr_sum = 0;
+    double dif =0;
 	int i,max;
 	
 	printf("Finds the difference between the (1 to max)^2 and (sum(1 to max))^2.\nEnter max:");

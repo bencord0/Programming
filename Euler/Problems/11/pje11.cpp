@@ -12,7 +12,7 @@ using namespace std;
 
 double up(int array[20][20])
 {
-	double u, temp =0;
+    double u(0), temp =0;
 	int i, j;
 	for (i=0;i<20;i++)
 	{
@@ -28,7 +28,7 @@ double up(int array[20][20])
 
 double left(int array[20][20])
 {
-	double l, temp =0;
+    double l(0), temp =0;
 	int i, j;
 	for (i=0;i<17;i++)
 	{
@@ -44,7 +44,7 @@ double left(int array[20][20])
 
 double diagonalr(int array[20][20])
 {
-	double dr, temp =0;
+    double dr(0), temp =0;
 	int i, j;
 	for (i=0;i<17;i++)
 	{
@@ -60,7 +60,7 @@ double diagonalr(int array[20][20])
 
 double diagonall(int array[20][20])
 {
-	double dl, temp =0;
+    double dl(0), temp =0;
 	int i, j;
 	for (i=19;i>2;i--)
 	{
@@ -75,7 +75,7 @@ double diagonall(int array[20][20])
 }
 
 
-int main()
+int pje11()
 {
 	int i, j;
 	int arr[20][20];

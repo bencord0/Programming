@@ -6,6 +6,10 @@
 #include "../Problems/6/pje6.c"
 #include "../Problems/7/pje7.c"
 #include "../Problems/8/pje8.c"
+#include "../Problems/9/pje9.c"
+#include "../Problems/10/pje10.cpp"
+#include "../Problems/11/pje11.cpp"
+
 
 #ifndef _FUNCS_H_
 #define _FUNCS_H_
@@ -19,5 +23,8 @@ int pje5();
 int pje6();
 int pje7();
 int pje8();
+int pje9();
+int pje10();
+int pje11();
 
 #endif
