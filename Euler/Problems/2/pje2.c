@@ -3,7 +3,7 @@
 
 //Solves Project Euler Problem 2
 
-int pje2()
+double pje2()
 {
 	double numa, numb, div, fib;
 	double max;
@@ -32,7 +32,7 @@ int pje2()
 		i = numa + numb;
 	}
 	
-	printf("sum = %f\n", sum);
+    //printf("Problem 2. Sum = %f\n", sum);
 	
-	return 0;
+    return sum;
 }

@@ -18,9 +18,9 @@ int pje8()
     double start = 0;
     double i = 0;
 	int fin;
-	
-	printf("Finds the nth prime. Enter n:\n");
-	scanf("%d", &fin);
+
+    printf("Finds the nth prime. Enter n:\n");
+    scanf("%d", &fin);
 	
 	printf("n=%d\n",fin);
 	
@@ -30,15 +30,16 @@ int pje8()
 	{
 		if(checkprime(i))
 		{
-			start++;
+            start++;
 		}
 		i++;
 	}
 	
-	printf("Answer: %f\n", i-1);
+    printf("Problem 8. Answer: %f\n", i-1);
 		
     //cend = clock();
     //printf ("%.3f cpu sec\n", ((double)cend - (double)cstart)* 1.0e-6);
 	
-	return 0;
+    return 0;
+
 }

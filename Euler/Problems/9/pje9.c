@@ -8,13 +8,13 @@
 #include <iostream>
 using namespace std;
 
-int pje9()
+double pje9()
 {
 	int n, a, b, c = 0;
     double ans, sum(0) , ab, c2 =0;
 	
 	n=5;
-	
+
 	while(sum!=1000)
 	{
 		
@@ -27,13 +27,13 @@ int pje9()
 				c2 = (c*c);
 				if(ab == c2){
 					sum = a+b+c;
-					cout << "Sum:" << sum << endl;
+                    //cout << "Sum:" << sum << endl;
 					if(sum == 1000)
 					{
 						ans = a*b*c;
 	
-						cout << "Product of abc=" << ans << endl;
-						return 0;
+                       // cout << "Problem 9. Product of abc=" << ans << endl;
+                        return ans;
 					}
 				}
 			}
@@ -41,5 +41,6 @@ int pje9()
 		n++;
 	}
 	
-	return 0;
+    return 0;
+
 }

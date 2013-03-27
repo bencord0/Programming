@@ -22,7 +22,7 @@ double up(int array[20][20])
 			if(temp>u){u=temp;}
 		}
 	}
-	cout << "Up: " << u << endl;
+    //cout << "Up: " << u << endl;
 	return u;
 }
 
@@ -38,7 +38,7 @@ double left(int array[20][20])
 			if(temp>l){l=temp;}
 		}
 	}
-	cout << "Left: " << l << endl;
+    //cout << "Left: " << l << endl;
 	return l;
 }
 
@@ -54,7 +54,7 @@ double diagonalr(int array[20][20])
 			if(temp>dr){dr=temp;}
 		}
 	}
-	cout << "Right diagonal: " << dr << endl;
+    //cout << "Right diagonal: " << dr << endl;
 	return dr;
 }
 
@@ -70,19 +70,20 @@ double diagonall(int array[20][20])
 			if(temp>dl){dl=temp;}
 		}
 	}
-	cout << "Left Diagonal: " << dl << endl;
+    //cout << "Left Diagonal: " << dl << endl;
 	return dl;
 }
 
 
-int pje11()
+double pje11()
 {
 	int i, j;
 	int arr[20][20];
 	double ansarr[6];
 	double ans =0;
+
 	//completely unneccesary file i/o to teach myself how
-	ifstream file ("pje11.dat", ios::in);
+    ifstream file ("C:\\Users\\Tom\\Documents\\GitHub\\Programming\\Euler\\Problems\\11\\pje11.dat", ios::in);
 	if (file.is_open())
 	{
 		for(i=0;i<20;i++)
@@ -111,8 +112,9 @@ int pje11()
 			ans = ansarr[i];
 		}
 	}
-	cout.precision(15);
-	cout<< "Answer: " << ans << endl;
+    //cout.precision(15);
+    //cout<< "Problem 11. Answer: " << ans << endl;
 	
-	return 0;
+    return ans;
+
 }

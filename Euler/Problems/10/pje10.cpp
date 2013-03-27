@@ -24,14 +24,14 @@ using namespace std;
 	}
 }*/
 
-int pje10()
+double pje10()
 {
 	double max = 2e6;
     double sum, i = 0;
 	
 	i=3;
 	sum=2;
-	
+
 	while(i<=max)
 	{
 		if(checkprime(i))
@@ -42,8 +42,9 @@ int pje10()
 		}
 		i++;
 	}
-	cout.precision(15);
-	cout << "Answer: " << sum <<endl;
+    //cout.precision(15);
+    //cout << "Problem 10. Answer: " << sum <<endl;
 	
-	return 0;
+    return sum;
+
 }

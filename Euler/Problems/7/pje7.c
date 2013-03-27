@@ -25,16 +25,16 @@
 	}
 }*/
 
-int pje7(void)
+double pje7()
 {
 	
     double start = 0;
     double i = 0;
 	int fin;
-	
-	printf("Finds the nth prime. Enter n:\n");
-	scanf("%d", &fin);
-	
+
+    //printf("Finds the nth prime. Enter n:\n");
+    //scanf("%d", &fin);
+    fin = 10001;
 	printf("n=%d\n",fin);
 	
 	fin += 1;
@@ -48,7 +48,7 @@ int pje7(void)
 		i++;
 	}
 	
-	printf("Answer: %f\n", i-1);
+  //  printf("Problem 7. Answer: %f\n", i-1);
 		
-	return 0;
+    return i-1;
 }

@@ -15,16 +15,16 @@
 #define _FUNCS_H_
 
 
-int pje1();
-int pje2();
-double pje3(int go);
-int pje4();
+double pje1();
+double pje2();
+double pje3();
+double pje4();
 int pje5();
-int pje6();
-int pje7();
+double pje6();
+double pje7();
 int pje8();
-int pje9();
-int pje10();
-int pje11();
+double pje9();
+double pje10();
+double pje11();
 
 #endif

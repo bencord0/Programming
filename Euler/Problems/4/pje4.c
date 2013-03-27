@@ -42,12 +42,12 @@ double checkpalindrome(double num)
 	}
 }
 
-int pje4()
+double pje4()
 {
 	
 	int i,j;
 	double num, num2, ans;
-	
+
 	for (i = 100;i<1000;i++)
 	{
 		for(j = 100;j<1000;j++)
@@ -59,10 +59,11 @@ int pje4()
 			ans = num2;
 			}
 		}
-		printf("ans: %f num: %f\n", ans, num2);
+        //printf("ans: %f num: %f\n", ans, num2);
 	}
 	
-	//printf("Answer: %f\n", ans);
+   // printf("Problem 4. Answer: %f\n", ans);
 	
-	return 0;
+    return ans;
+
 }

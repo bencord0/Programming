@@ -1,27 +1,29 @@
-#include <QApplication>
-#include "qmlapplicationviewer.h"
+//#include <QApplication>
+//#include "qmlapplicationviewer.h"
 #include "funcs.h"
 
-Q_DECL_EXPORT int main(int argc, char *argv[])
+//Q_DECL_EXPORT
+int main()/*int argc, char *argv[]*/
 {
-    QScopedPointer<QApplication> app(createApplication(argc, argv));
+    /*QScopedPointer<QApplication> app(createApplication(argc, argv));
 
     QmlApplicationViewer viewer;
     viewer.setOrientation(QmlApplicationViewer::ScreenOrientationAuto);
     viewer.setMainQmlFile(QLatin1String("qml/ProjectEuler/main.qml"));
-    viewer.showExpanded();
+    viewer.showExpanded();*/
 
-    pje1(1);
-    pje2(1);
-    pje3(1);
-    pje4(1);
-    pje5(1);
-    pje6(1);
-    pje7(1);
-    pje8(1);
-    pje9(1);
-    pje10(1);
-    pje11(1);
-
-    return app->exec();
+    printf("Problem 1. Answer: %f\n", pje1());
+    printf("Problem 2. Answer: %f\n", pje2());
+    printf("Problem 3. Answer: %f\n", pje3());
+    printf("Problem 4. Answer: %f\n", pje4());
+    printf("Problem 5. Answer: %d\n", pje5());
+    printf("Problem 6. Answer: %f\n", pje6());
+    printf("Problem 7. Answer: %f\n", pje7());
+  //  pje8();
+    cout << "Problem 9. Product of abc=" << pje9() << endl;
+    cout.precision(15);
+    cout << "Problem 10. Answer: " << pje10() <<endl;
+    cout << "Problem 11. Answer: " << pje11() <<endl;
+    return(0);
+    //return app->exec();
 }

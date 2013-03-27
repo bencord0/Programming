@@ -14,10 +14,10 @@ int pje5()
 		
 
 	int max, i, j, ans, div;
-	
-	printf("Calculates smallest number evenly divisible by 1 to max. Enter max: ");
-	scanf("%d", &max);
-	
+
+    //printf("Calculates smallest number evenly divisible by 1 to max. Enter max: ");
+    //scanf("%d", &max);
+    max =20;
 	ans=0;
 	j=2;
 	
@@ -40,7 +40,7 @@ int pje5()
 		
 	}
 	
-	printf("Answer: %d\n",ans);
+    //printf("Problem 5. Answer: %d\n",ans);
 	
-	return 0;
+    return ans;
 }

@@ -17,17 +17,13 @@ double checkprime (double num)
 	}
 }
 
-double pje3(int go)
+double pje3()
 {
 
     double num, start, fractpart, intpart, div;
     double ans=0;
     double i =0;
-	
-    if(go == 0){
-        return 0;
-    }
-    else{
+
 	start = 600851475143;
 	//start = 13195;
 	num = sqrt (start); //trial division of primes - see wikipedia
@@ -48,8 +44,8 @@ double pje3(int go)
 		i++;
 	}
 	
-	printf("Answer: %f\n", ans);
+   // printf("Problem 3. Answer: %f\n", ans);
 		
     return ans;
-    }
+
 }

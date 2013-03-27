@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int pje6()
+double pje6()
 {
 
     double sqr =0;
@@ -18,10 +18,10 @@ int pje6()
     double sqr_sum = 0;
     double dif =0;
 	int i,max;
-	
-	printf("Finds the difference between the (1 to max)^2 and (sum(1 to max))^2.\nEnter max:");
-	scanf("%d",&max);
-	
+
+    //printf("Finds the difference between the (1 to max)^2 and (sum(1 to max))^2.\nEnter max:");
+    //scanf("%d",&max);
+    max =100;
 	for(i=1;i<max+1;i++)
 	{
 		sqr += (i*i);
@@ -35,7 +35,7 @@ int pje6()
 	
 	dif = sqr_sum - sqr;
 	
-	printf("Answer: %f\n",dif);
+    //printf("Problem 6. Answer: %f\n",dif);
 
-	return 0;
+    return dif;
 }

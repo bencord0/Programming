@@ -3,8 +3,9 @@
 
 // finds sum of all multiples of 3 and/or 5 below 1000
 
-int pje1()
+double pje1()
 {
+
 	int num;
 //	int end;
     double sum = 0;
@@ -13,7 +14,6 @@ int pje1()
 	int div;
 	
 	max = 1000;
-	
 	for(i=0; i < max; i++)
 	{
 	num = i;
@@ -38,7 +38,8 @@ int pje1()
 	div = 0;
 	}
 	}
-	printf("sum = %f \n", sum);
+   // printf("Problem 1. Sum = %f \n", sum);
 
-    return 0;
+    return sum;
+
 }
