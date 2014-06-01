@@ -1,0 +1,7 @@
+# Build artifacts
+*.o
+
+# Qt build directories
+*-build-Desktop-Debug
+*-build-Desktop-Release
+*-build-desktop-*
