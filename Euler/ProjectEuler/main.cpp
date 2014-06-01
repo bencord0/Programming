@@ -1,4 +1,8 @@
+#include <iostream>
+
+using namespace std;
 #include "funcs.h"
+
 
 //Q_DECL_EXPORT
 int main()

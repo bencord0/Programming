@@ -14,6 +14,7 @@ double pje12()
      * tri: the triangle number
      * i, j: counts
      * divs: number of divisors
+     */
 
     int tri = 0;
     int i = 1;
