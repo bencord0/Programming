@@ -5,3 +5,6 @@
 *-build-Desktop-Debug
 *-build-Desktop-Release
 *-build-desktop-*
+
+# Backup files
+*~
