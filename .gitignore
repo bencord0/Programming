@@ -8,3 +8,6 @@
 
 # Backup files
 *~
+
+# IDE configuration
+*.pro.user*
