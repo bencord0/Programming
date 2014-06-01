@@ -10,23 +10,22 @@ using namespace std;
 
 double pje12()
 {
-    //initiate variables - one for the triangle number, two counts , one for the number of divisors
-    int tri, i, j, divs;
-    tri=0;
-    j=0;
-    i=1;
-    divs=0;
+    /** initiate variables:
+     * tri: the triangle number
+     * i, j: counts
+     * divs: number of divisors
 
-    while(divs!=500)
-    {
-        tri+=i;
-        i++;
+    int tri = 0;
+    int i = 1;
+    int j = 0;
+    int divs = 0;
+
+    while (divs < 500) {
+        tri += i++;
 
         divs = 0;
-        for(j=2;j<tri+1;j++)
-        {
-            if( tri % j == 0)
-            {
+        for(j = 2; j < (tri + 1); j++) {
+            if( tri % j == 0) {
                 divs++;
             }
         }
