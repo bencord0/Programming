@@ -9,31 +9,16 @@ DEPLOYMENTFOLDERS = folder_01
 # Additional import path used to resolve QML modules in Creator's code model
 QML_IMPORT_PATH =
 
-symbian:TARGET.UID3 = 0xE150C208
-
-# Smart Installer package's UID
-# This UID is from the protected range and therefore the package will
-# fail to install if self-signed. By default qmake uses the unprotected
-# range value if unprotected UID is defined for the application and
-# 0x2002CCCF value if protected UID is given to the application
-#symbian:DEPLOYMENT.installer_header = 0x2002CCCF
-
-# Allow network access on Symbian
-symbian:TARGET.CAPABILITY += NetworkServices
-
-# If your application uses the Qt Mobility libraries, uncomment the following
-# lines and add the respective components to the MOBILITY variable.
-# CONFIG += mobility
-# MOBILITY +=
-
-# Speed up launching on MeeGo/Harmattan when using applauncherd daemon
-# CONFIG += qdeclarative-boostable
-
-# Add dependency to Symbian components
-# CONFIG += qt-components
-
 # The .cpp file which was generated for your project. Feel free to hack it.
-SOURCES += main.cpp ../Problems/1/pje1.c ../Problems/2/pje2.c ../Problems/3/pje3.c ../Problems/4/pje4.c ../Problems/5/pje5.c ../Problems/6/pje6.c ../Problems/7/pje7.c ../Problems/8/pje8.c funcs.h \
+SOURCES += main.cpp funcs.h \
+    ../Problems/1/pje1.c \
+    ../Problems/2/pje2.c \
+    ../Problems/3/pje3.c \
+    ../Problems/4/pje4.c \
+    ../Problems/5/pje5.c \
+    ../Problems/6/pje6.c \
+    ../Problems/7/pje7.c \
+    ../Problems/8/pje8.c \
     ../Problems/9/pje9.c \
     ../Problems/10/pje10.cpp \
     ../Problems/11/pje11.cpp \
