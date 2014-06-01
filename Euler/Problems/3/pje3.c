@@ -24,8 +24,8 @@ double pje3()
     double ans=0;
     double i =0;
 
-	start = 600851475143;
-	//start = 13195;
+    //start = 600851475143;
+    start = 13195;
 	num = sqrt (start); //trial division of primes - see wikipedia
 	
 	while (i < num)

@@ -9,7 +9,7 @@
 #include "../Problems/9/pje9.c"
 #include "../Problems/10/pje10.cpp"
 #include "../Problems/11/pje11.cpp"
-
+#include "../Problems/12/pje12.cpp"
 
 #ifndef _FUNCS_H_
 #define _FUNCS_H_
@@ -26,5 +26,6 @@ int pje8();
 double pje9();
 double pje10();
 double pje11();
+double pje12();
 
 #endif

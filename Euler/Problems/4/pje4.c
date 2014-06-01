@@ -46,7 +46,8 @@ double pje4()
 {
 	
 	int i,j;
-	double num, num2, ans;
+    double num, num2;
+    double ans=0;
 
 	for (i = 100;i<1000;i++)
 	{

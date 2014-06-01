@@ -24,6 +24,7 @@ int main()/*int argc, char *argv[]*/
     cout.precision(15);
     cout << "Problem 10. Answer: " << pje10() <<endl;
     cout << "Problem 11. Answer: " << pje11() <<endl;
+    cout << "Problem 12. Answer: " << pje12() <<endl;
     return(0);
     //return app->exec();
 }
